@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <title>Seu Blog</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation max-width-1 m-auto">
+            <div class="nav-left">
+                <a href="#">
+                    <img src="./img/logo.png" alt="Seu Blog Logo" width="94">
+                </a>
+                <ul>
+                    <li><a href="./index.html">Início</a></li>
+                    <li><a href="./index.html">Sobre</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <form action="./search.html" method="get">
+                    <input class="form-input" type="text" name="query" placeholder="Pesquisar Artigo" aria-label="Pesquisar Artigo">
+                    <button class="btn" type="submit">Pesquisar</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="max-width-1 m-auto">
+            <hr>
+        </div>
+        <section class="contact-content font1 max-width-1 m-auto">
+            <div class="max-width-1 m-auto mx-1">
+                <h2>Entre em Contato</h2>
+                <form class="contact-form">
+                    <div class="form-box">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="form-box">
+                        <label for="phone">Telefone:</label>
+                        <input type="tel" id="phone" placeholder="Digite seu número" required>
+                    </div>
+                    <div class="form-box">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="Digite seu email" required>
+                    </div>
+                    <div class="form-box">
+                        <label for="message">Mensagem:</label>
+                        <textarea id="message" rows="8" placeholder="Como podemos ajudar?" required></textarea>
+                    </div>
+                    <div class="form-box">
+                        <button class="btn" type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Copyright &copy; Giovanna Petriconi</p>
+    </footer>
+</body>
+</html>
